@@ -10,9 +10,7 @@ public class F_PrincipalBloques {
                 (Escribe el número y presiona Enter)
                 =========================================
                 """;
-
         System.out.println(ayuda);
-
         // Puedes combinarlos con format si quieres valores dinámicos:
         String ficha = """
                 ---- FICHA ----
@@ -20,7 +18,6 @@ public class F_PrincipalBloques {
                 Edad:   %d
                 ----------------
                 """.formatted("Diego", 28);
-
         System.out.println(ficha);
     }
 }
